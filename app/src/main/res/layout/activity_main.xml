@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp" >
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:progressDrawable="@drawable/rating_bar_style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+</RelativeLayout>
